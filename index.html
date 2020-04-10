@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <script src="static/js/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="static/js/blur/blur.js" type="text/javascript"></script>
+  </head>
+<body>
+<style type="text/css">
+body {
+  background: url("static/img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+</style>
+<img class="img" src="static/img/x.jpg" width="300px">
+<br>
+<img src="static/img/x.jpg" width="300px">
+<h1 class="text">dsads dads adas dad asd asdsa dasd</h1>
+<br>
+<h1>dsads dads adas dad asd asdsa dasd</h1>
+</body>
+<script type="text/javascript"> 
+$("document").ready(function(){
+  $(".img").blurjs({
+    customClass: 'blurjs',
+    radius:5,
+    persist:false
+  });
+  $(".text").blurjs({
+    customClass: 'blurjs',
+    radius:5,
+    persist:false
+  });
+});
+</script>
+</html>
